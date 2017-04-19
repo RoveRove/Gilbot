@@ -7,10 +7,10 @@ void setup(){
   Serial.begin(9600);
   
   myservo.attach(3);
-  myservo2.attach(12);
+  myservo2.attach(7);
 
-  myservo.writeMicroseconds(1597);
-  myservo2.writeMicroseconds(2000);
+  myservo.writeMicroseconds(2000);
+  myservo2.writeMicroseconds(1567);
 }
 
 void  loop() {
